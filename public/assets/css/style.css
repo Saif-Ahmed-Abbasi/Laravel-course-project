@@ -1,0 +1,66 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #f4f6f9;
+    margin: 0;
+}
+
+.auth-box {
+    width: 350px;
+    margin: 100px auto;
+    padding: 20px;
+    background: #fff;
+    border-radius: 6px;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background: #2563eb;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+.wrapper {
+    display: flex;
+}
+
+aside {
+    width: 220px;
+    background: #111827;
+    color: #fff;
+    min-height: 100vh;
+    padding: 20px;
+}
+
+aside ul {
+    list-style: none;
+    padding: 0;
+}
+
+aside ul li {
+    padding: 10px 0;
+}
+
+main {
+    padding: 20px;
+    width: 100%;
+}
+
+.cards {
+    display: flex;
+    gap: 15px;
+}
+
+.cards div {
+    background: #fff;
+    padding: 20px;
+    border-radius: 6px;
+    flex: 1;
+}
